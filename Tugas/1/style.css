@@ -1,0 +1,21 @@
+li:nth-child(even) a {
+    color: rgb(0, 0, 0);
+}
+
+li:nth-child(odd) a {
+    color: rgb(253, 1, 1);
+}
+
+li a:hover{
+    background-color: black;
+    color: white;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+a[target="_blank"]:visited{
+    color: rgb(247, 9, 9);
+}

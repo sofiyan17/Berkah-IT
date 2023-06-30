@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animasi</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            animation: animasi 3s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes animasi{
+            0%{
+                margin-left: 0px;
+            }
+            25%{
+                margin-left: 800px;
+                margin-top: 0px;
+            }
+            50%{
+                margin-top: 500px;
+                margin-left: 800px;
+            }
+            100%{
+                margin-top: 500px;
+                margin-left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

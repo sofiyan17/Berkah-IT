@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'myfont';
+    
+}
+@font-face{
+    font-family: 'myfont';
+    src: url(../../Assets/Font/OpenSans-BoldItalic-webfont.woff) format('woff');
+}
+
+.clear{
+    clear: both;
+}
+
+nav{
+    padding: 20px;
+}
+
+nav H2{
+    float: left;
+}
+
+ul{
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+main{
+    width: 800px;
+    margin: 0px auto;
+    padding: 50px 10px;
+    margin-bottom: 20px;
+}
+
+main section:first-child{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+main section:nth-child(2){
+    width: 70%;
+    float: right;
+    padding: 10px;
+}
+
+main section:nth-child(2) p,.sosmed{
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+}
+
+.sosmed a{
+    background-color: black;
+    color: white;
+}
+
+section table{
+    margin: 0px auto;
+    margin-bottom: 100px;
+    border-collapse: collapse;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+table tr th{
+    background-color: aqua;
+    padding: 8px;
+}

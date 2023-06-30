@@ -1,0 +1,26 @@
+section.about h2 {
+    color: red;
+}
+
+footer p {
+    color: yellow;
+}
+/*  */
+a:hover{ 
+    background-color: blue;
+    color: white;
+}
+
+a:link{ /* ketika di tekan */
+    background-color: rgb(54, 177, 93);
+    color: white;
+}
+
+a:active{ /* ketika di tekan */
+    background-color: rgb(6, 6, 31);
+    color: white;
+}
+
+a:visited{ /* ketika sudah di kunjungi */
+    color: rgb(3, 0, 0);
+}
